@@ -52,6 +52,5 @@ app.get('/', (req, res) => {
  
 
 
-app.listen(PORT, "0.0.0.0", () => {
-    console.log(`connected at port: ${PORT}`); 
-}); 
+app.listen(PORT); 
+
